@@ -1,0 +1,49 @@
+html,body {
+	width: 100%;
+	height: 100%;
+	font-family: 'Kanit', sans-serif;
+	background: url(operapic.jpeg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+h1 {
+	font-size: 4rem;
+	color: #222222;
+}
+
+.Lineone {
+	border-color: #6237ff;
+}
+
+.Linetwo {
+	border-color: #9f31fe;
+}
+
+.Linethree {
+	border-color: #df2dfd;
+}
+
+.buffer {
+	height: 10rem;
+}
+
+hr {
+	border-width: 2px;
+	max-width: 70px;
+	border-radius: 100px;
+}
+.btn-style {
+	margin: 25px;
+	padding: 1rem 2rem;
+	border-radius: 20px 10px;
+	text-transform: uppercase;
+	box-shadow: 5px 50px inset #222222;
+}
+
+.btn:hover {
+	transform: scale(1.1);
+    transition: 0.5s;
+}
